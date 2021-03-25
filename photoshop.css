@@ -373,6 +373,8 @@ h6 {
 #projects {
   background: rgb(16,16,18);
   background: linear-gradient(180deg, rgba(16,16,18,1) 0%, rgba(49,49,55,1) 45%, rgba(109,109,120,1) 64%, rgba(148,148,148,1) 77%, rgba(242,225,225,1) 87%);
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 /* transition to design section */
@@ -394,7 +396,7 @@ h6 {
 
 #transition a:link {
   font-family: BoldEVO;
-  font-size: 7vw;
+  font-size: 6.5vw;
   color: rgb(94, 93, 93);
   -webkit-text-stroke: 1px rgba(199, 199, 199,0.5);
   text-decoration: none;

@@ -158,7 +158,8 @@ a.returnButton:hover {
   background-color: rgb(50,50,50);
 }
 
-#error {
+
+#section {
   width: 100%;
   height: 82vh;
   background-color: #101012;
@@ -170,86 +171,19 @@ a.returnButton:hover {
 
 p {
   color: #e0e0e0;
-}
-
-p:nth-child(1) {
-  font-family: MediumEVO;
-  font-size: 2em;
-}
-
-p:nth-child(2) {
-  font-family: EMedium;
-  font-size: 1.5em;
+  font-family: ERegular;
+  font-size: 1em;
+  width: 45vw;
+  line-height: 1.5em;
+  margin-top: 1em;
 }
 
 img {
-  width: 5em;
-  margin: 2em;
+  width: 45vw;
+  position: relative;
 }
 
-.instead {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2em;
-}
 
-h2 {
-  font-family: RegularEVO;
-  font-size: 1em;
-  color: #e0e0e0;
-  margin-bottom: .5em;
-}
-
-.otherPages {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.otherPages img {
-  width: 15em;
-  height: 10em;
-  object-fit: cover;
-  margin: 1em;
-}
-
-#color1 {
-  display: none;
-}
-
-#project1:hover #color1 {
-  display: flex;
-}
-
-#project1:hover #bnw1 {
-  display: none;
-}
-
-#color2 {
-  display: none;
-}
-
-#project2:hover #color2 {
-  display: flex;
-}
-
-#project2:hover #bnw2 {
-  display: none;
-}
-
-#color3 {
-  display: none;
-}
-
-#project3:hover #color3 {
-  display: flex;
-}
-
-#project3:hover #bnw3 {
-  display: none;
-}
 
 /* footer */
 #footer {
